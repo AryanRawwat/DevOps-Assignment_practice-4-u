@@ -1,1 +1,12 @@
+pipeline {
+    agent any 
 
+
+    stages {
+        stage('git clone') {
+            steps {
+                git url: "git@github.com:AryanRawwat/DevOps-Assignment_practice-4-u.git"
+      }
+}
+}
+}
